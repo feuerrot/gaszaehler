@@ -1,7 +1,7 @@
 # Gaszählersensor
 
-Dieses Projekt dient dazu, über eine Doppelader S0-Informationen von einem
-Gaszähler zu erhalten.
+Dieses Projekt dient dazu, einen über Doppelader angeschlossenen Sensor am
+Gaszähler an einen S0-Eingang anzubinden
 
 Der Gaszähler hat in der 6 der dritten Nachkommarstelle eine reflektierende
 Scheibe, was es ermöglicht, den Gasverbrauch auf jeweils 1L genau zu
@@ -21,6 +21,9 @@ zur Verfügung.
 ### Konverter
 ![Schaltplan des Konverters](img/schaltplan_s0-converter.png)
 
+### Beides
+![Komplettschaltplan](img/schaltplan.png)
+
 ## Layout
 
 ### Sensor
@@ -29,3 +32,5 @@ zur Verfügung.
 ### Konverter
 ![Layout des Konverters](img/layout_s0-converter.png)
 
+### Beides
+![Komplettlayout](img/layout.png)
